@@ -6,9 +6,9 @@ public class Main {
         add.calculate(1,2);
         System.out.println(add.calculate(1,2));
 
-        Calculator substract = new SubstractOperation();
+        Calculator subtract = new SubstractOperation();
         substract.calculate(6,3);
-        System.out.println(substract.calculate(6,3));
+        System.out.println(subtract.calculate(6,3));
 
         Calculator multiply = new MultiplyOperation();
         multiply.calculate(10,10);
